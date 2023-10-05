@@ -1,6 +1,6 @@
 import customtkinter
 from Def import *
-
+import tkinter as tk
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("green")
 
@@ -66,7 +66,7 @@ button_registro.pack(pady=12, padx=10)
 button_voltar = customtkinter.CTkButton(master=frame_registro, text="Voltar", hover_color="red", command=mostrar_tela_login)
 button_voltar.pack(pady=12, padx=10)
 
-button_cadastrar = customtkinter.CTkButton(master=frame_registro, text="Cadastrar", hover_color="red", command=rg)
+button_cadastrar = customtkinter.CTkButton(master=frame_registro, text="Cadastrar", hover_color="green", command=rg)
 button_cadastrar.pack(pady=12, padx=10)
 
 mostrar_tela_login()
